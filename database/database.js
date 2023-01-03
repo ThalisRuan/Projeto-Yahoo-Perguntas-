@@ -5,5 +5,9 @@ const connection = new Sequelize('guiaperguntas', 'root', '123456789', {
     dialect: 'mysql'
   });
 
+function soma (a,b) {
+  return a + b 
+}
+
 // exportando conecao para outros arquivos
 module.exports = connection;
